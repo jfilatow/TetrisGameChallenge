@@ -1,0 +1,35 @@
+---
+alwaysApply: false
+globs: *.html
+---
+# TetrisJS Gameplay and Editing Guidelines
+
+These guidelines apply to the Tetris game contained in [tetris.html](mdc:tetris.html).
+
+## Gameplay Basics
+- Classic Tetris on a 10x20 playfield rendered to a `<canvas>`.
+- Pieces (I, J, L, O, S, T, Z) spawn using a 7-bag sequence.
+- Movement: left/right to shift, up to rotate, down to soft-drop.
+- Game over triggers when a placed piece occupies offscreen rows.
+
+## Controls (from README and code)
+- Left Arrow: move left
+- Right Arrow: move right
+- Up Arrow: rotate 90° clockwise
+- Down Arrow: soft drop
+
+## Code Architecture (inside `tetris.html`)
+- Rendering uses Canvas 2D context; grid size is 32 px.
+- Core functions: `generateSequence()`, `getNextTetromino()`, `rotate(matrix)`, `isValidMove(matrix, row, col)`, `placeTetromino()`, `loop()`.
+- The main game loop uses `requestAnimationFrame` and a simple frame counter to drop pieces.
+
+## Editing Conventions
+- Keep logic readable and minimal; avoid external libraries and build steps.
+- Preserve function boundaries and pure helpers where possible.
+- Maintain piece definitions in `tetrominos` and mapping in `colors`.
+- Respect existing input handling and only extend with clear, discoverable keybinds.
+- Avoid changing canvas dimensions unless you update grid, playfield, and drawing logic consistently.
+
+## Cursor Hints
+- For gameplay questions, inspect the functions listed above in [tetris.html](mdc:tetris.html).
+- For setup/usage questions, consult [README.md](mdc:README.md).

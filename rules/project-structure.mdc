@@ -1,0 +1,19 @@
+---
+alwaysApply: true
+---
+# Repository Structure and Entry Points
+
+This repository is intentionally minimal and centers around a single entry file: [tetris.html](mdc:tetris.html).
+
+- Open `tetris.html` directly in a modern browser to run the game.
+- All HTML, CSS, and JavaScript for the Tetris game live inside `tetris.html`.
+- The [README.md](mdc:README.md) documents controls, gameplay basics, and Git instructions.
+
+## Conventions
+- Keep gameplay logic, rendering, and styles self-contained in `tetris.html` unless explicitly refactoring.
+- Prefer small, clear functions and avoid introducing external dependencies.
+- Use modern browser APIs without build steps.
+
+## Navigation Hints for Cursor
+- Treat `tetris.html` as the main entry point for code navigation.
+- When asked about features, controls, or setup, first consult [README.md](mdc:README.md).
