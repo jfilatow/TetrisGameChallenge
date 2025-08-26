@@ -1,7 +1,7 @@
 ---
 alwaysApply: true
 ---
-# Repository Structure and Entry Points
+# Project Structure and Entry Points
 
 This repository is intentionally minimal and centers around a single entry file: [tetris.html](mdc:tetris.html).
 
