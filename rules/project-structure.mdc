@@ -1,7 +1,7 @@
 ---
 alwaysApply: true
 ---
-# Project Structure and Entry Points
+# Repository Structure and Entry Points
 
 This repository is intentionally minimal and centers around a single entry file: [tetris.html](mdc:tetris.html).
 
@@ -17,3 +17,11 @@ This repository is intentionally minimal and centers around a single entry file:
 ## Navigation Hints for Cursor
 - Treat `tetris.html` as the main entry point for code navigation.
 - When asked about features, controls, or setup, first consult [README.md](mdc:README.md).
+
+##GAME REQUIREMENTS
+- Refer to `GAME_REQUIREMENTS.md` for specificiations for the game during the game build process. 
+- Refer to `FEATURE_ENHANCMENTS.md` for specificiations for engancing the game play features. Always build one feature at a time, and let the user test and confrim before proceeding with building the next feature. 
+
+##Tracking Changes
+- When building the application always refer to the plan in 'Plan.md' if it exists. If it does not exist create it and ensure that each element you are building is reflected in there and tracked. 
+- Once you have completed an enhancement update the 'release_notes.md' and provide a summary of the enhancements to the game. 
