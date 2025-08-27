@@ -1,11 +1,11 @@
-## Game Requirements (TetrisJS)
+## Game Requirements (Tetris)
 
 ### Overview
 A minimalist Tetris implementation contained in a single HTML file (`tetris.html`) using Canvas 2D and plain JavaScript. No build steps or external dependencies are required.
 
 ### Scope
 - In scope: core Tetris gameplay loop, 7‑bag piece generation, movement, rotation, soft drop, line clears, game over overlay, canvas rendering.
-- Out of scope (not implemented): scoring, levels/speed scaling, next/hold previews, pause, hard drop, sound, UI outside the canvas.
+- Out of scope (not currently implemented): scoring, levels/speed scaling, next/hold previews, pause, hard drop, sound, UI outside the canvas.
 
 ## Functional Requirements
 
@@ -89,6 +89,7 @@ A minimalist Tetris implementation contained in a single HTML file (`tetris.html
 ### NFR-4: Maintainability
 - Functions SHOULD remain small and focused (e.g., `rotate`, `isValidMove`, `placeTetromino`, `loop`).
 - Piece definitions and color mappings SHOULD remain centralized in `tetrominos` and `colors`.
+- Always update the 'README.md' with the latest features and gamplay options when implemented. 
 
 ## Acceptance Criteria
 - Opening `tetris.html` displays a black background and bordered canvas.

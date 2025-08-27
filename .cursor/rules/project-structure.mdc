@@ -3,11 +3,11 @@ alwaysApply: true
 ---
 # Repository Structure and Entry Points
 
-This repository is intentionally minimal and centers around a single entry file: [tetris.html](mdc:tetris.html).
+This repository is intentionally minimal and centers around a single entry file: [Tetris/tetris.html].
 
 - Open `tetris.html` directly in a modern browser to run the game.
 - All HTML, CSS, and JavaScript for the Tetris game live inside `tetris.html`.
-- The [README.md](mdc:README.md) documents controls, gameplay basics, and Git instructions.
+- The [README.md] documents controls, gameplay basics, and Git instructions.
 
 ## Conventions
 - Keep gameplay logic, rendering, and styles self-contained in `tetris.html` unless explicitly refactoring.
@@ -16,12 +16,13 @@ This repository is intentionally minimal and centers around a single entry file:
 
 ## Navigation Hints for Cursor
 - Treat `tetris.html` as the main entry point for code navigation.
-- When asked about features, controls, or setup, first consult [README.md](mdc:README.md).
+- When asked about features, controls, or setup, first consult [README.md].
 
 ##GAME REQUIREMENTS
 - Refer to `GAME_REQUIREMENTS.md` for specificiations for the game during the game build process. 
-- Refer to `FEATURE_ENHANCMENTS.md` for specificiations for engancing the game play features. Always build one feature at a time, and let the user test and confrim before proceeding with building the next feature. 
+- Refer to `FEATURE_ENHANCMENTS.md` for specificiations for engancing the game play features. Always build one feature at a time, and let the user test and confirm before proceeding with building the next feature. 
 
 ##Tracking Changes
-- When building the application always refer to the plan in 'Plan.md' if it exists. If it does not exist create it and ensure that each element you are building is reflected in there and tracked. 
+- When building the game always refer to the plan in 'Plan.md' if it exists. If it does not exist create it and ensure that each element you are building is reflected in there and tracked. 
 - Once you have completed an enhancement update the 'release_notes.md' and provide a summary of the enhancements to the game. 
+- Update the 'README.md' with latest features and enhancements and gameplay instructions. 

@@ -2,9 +2,9 @@
 alwaysApply: false
 globs: *.html
 ---
-# TetrisJS Gameplay and Editing Guidelines
+# Tetris Gameplay and Editing Guidelines
 
-These guidelines apply to the Tetris game contained in [tetris.html](mdc:tetris.html).
+These guidelines apply to the Tetris game contained in [Tetris/tetris.html].
 
 ## Gameplay Basics
 - Classic Tetris on a 10x20 playfield rendered to a `<canvas>`.
@@ -30,6 +30,6 @@ These guidelines apply to the Tetris game contained in [tetris.html](mdc:tetris.
 - Respect existing input handling and only extend with clear, discoverable keybinds.
 - Avoid changing canvas dimensions unless you update grid, playfield, and drawing logic consistently.
 
-## Cursor Hints
-- For gameplay questions, inspect the functions listed above in [tetris.html](mdc:tetris.html).
-- For setup/usage questions, consult [README.md](mdc:README.md).
+## Hints
+- For gameplay questions, inspect the functions listed above in [tetris.html].
+- For setup/usage questions, consult [README.md].
