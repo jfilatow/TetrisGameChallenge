@@ -1,5 +1,6 @@
 ---
-alwaysApply: true
+alwaysApply: false
+globs: *.html
 ---
 # Tetris Gameplay and Editing Guidelines
 
